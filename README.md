@@ -22,8 +22,8 @@ This project serves as a demonstration of the process for preparing training dat
 
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/yourusername/organization-finetuning.git
-   cd organization-finetuning
+   https://github.com/DarshanG12/FT_GPT4o_mini.git
+   
 
 2) Install Required Packages:
  pip install openai jsonlines
