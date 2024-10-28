@@ -45,7 +45,7 @@ Example Data Format:
 
 Save your data in a file named YOUR_FILENAME.jsonl.
 
-Run the Fine-Tuning Script: Use the provided script to upload the training data and initiate the fine-tuning process:
+Run the Fine-Tuning Script: upload the training data and initiate the fine-tuning process:
 Monitor Fine-Tuning Status: The script will provide feedback on the status of the fine-tuning job.
 
 Cleanup
