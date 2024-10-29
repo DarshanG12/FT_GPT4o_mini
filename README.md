@@ -24,17 +24,22 @@ This project serves as a demonstration of the process for preparing training dat
    ```bash
    https://github.com/DarshanG12/FT_GPT4o_mini.git
    
+## 2) Install Required Packages:
+```bash
+pip install openai jsonlines
+```
 
-2) Install Required Packages:
- pip install openai jsonlines
-
-3)Set Your OpenAI API Key: Make sure to set your OpenAI API key as an environment variable:
+3) Set Your OpenAI API Key:
+Make sure to set your OpenAI API key as an environment variable:
+```
 export OPENAI_API_KEY='your-api-key'
+```
 
 4)Data Preparation
 The training data is formatted in JSON Lines, allowing for efficient processing of large datasets. Each entry in the dataset simulates a conversation, providing context about employees and the organization.
 
 Example Data Format:
+```
 {
     "messages": [
         {"role": "system", "content": "You are an expert on organizational information."},
@@ -42,7 +47,7 @@ Example Data Format:
         {"role": "assistant", "content": "The organization has three main departments: Sales, Marketing, and Development."}
    ]
 }
-
+```
 Save your data in a file named YOUR_FILENAME.jsonl.
 
 Run the Fine-Tuning Script: upload the training data and initiate the fine-tuning process:
